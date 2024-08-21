@@ -1,0 +1,9 @@
+1...
+在这个ros中。Topic（也就是所谓的话题通信）被用来传输所有的数据了
+这里面的rosservice（也就是服务通信）是用来设置各个传感器的参数的。
+也就是说，图片等信息都是由topic来传输的，然后像设置图片大小，分辨率之类的都由rosservice传输
+
+
+2...
+关于还有的参数服务器通信，一些参数被静态写入到param里面了。就是由service修改的东西就存在service里面
+目前已将rosparam dump miroParams.yaml 命令，将参数导出了

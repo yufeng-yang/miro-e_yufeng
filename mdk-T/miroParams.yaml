@@ -1,0 +1,84 @@
+miro:
+  sensors:
+    caml:
+      compressed:
+        format: jpeg
+        jpeg_optimize: false
+        jpeg_progressive: false
+        jpeg_quality: 80
+        jpeg_restart_interval: 0
+        png_level: 9
+      compressedDepth:
+        depth_max: 10.0
+        depth_quantization: 100.0
+        format: png
+        png_level: 9
+      theora:
+        keyframe_frequency: 64
+        optimize_for: 1
+        quality: 31
+        target_bitrate: 800000
+    camr:
+      compressed:
+        format: jpeg
+        jpeg_optimize: false
+        jpeg_progressive: false
+        jpeg_quality: 80
+        jpeg_restart_interval: 0
+        png_level: 9
+      compressedDepth:
+        depth_max: 10.0
+        depth_quantization: 100.0
+        format: png
+        png_level: 9
+      theora:
+        keyframe_frequency: 64
+        optimize_for: 1
+        quality: 31
+        target_bitrate: 800000
+    gaze:
+      compressed:
+        format: jpeg
+        jpeg_optimize: false
+        jpeg_progressive: false
+        jpeg_quality: 80
+        jpeg_restart_interval: 0
+        png_level: 9
+      compressedDepth:
+        depth_max: 10.0
+        depth_quantization: 100.0
+        format: png
+        png_level: 9
+      theora:
+        keyframe_frequency: 64
+        optimize_for: 1
+        quality: 31
+        target_bitrate: 800000
+    overhead:
+      compressed:
+        format: jpeg
+        jpeg_optimize: false
+        jpeg_progressive: false
+        jpeg_quality: 80
+        jpeg_restart_interval: 0
+        png_level: 9
+      compressedDepth:
+        depth_max: 10.0
+        depth_quantization: 100.0
+        format: png
+        png_level: 9
+      theora:
+        keyframe_frequency: 64
+        optimize_for: 1
+        quality: 31
+        target_bitrate: 800000
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_127_0_0_1__45525: http://127.0.0.1:45525/
+rosversion: '1.16.0
+
+  '
+run_id: 06a5739a-5b9f-11ef-8cb4-63295fdad4bf

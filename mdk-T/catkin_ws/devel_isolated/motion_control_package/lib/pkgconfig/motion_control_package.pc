@@ -1,0 +1,8 @@
+prefix=/home/yang/mdk-T/catkin_ws/devel_isolated/motion_control_package
+
+Name: motion_control_package
+Description: Description of motion_control_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/yang/mdk-T/catkin_ws/install_isolated
+
+Name: first_Fun_pag
+Description: Description of first_Fun_pag
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
