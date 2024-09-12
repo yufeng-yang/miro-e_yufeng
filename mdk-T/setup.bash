@@ -31,6 +31,8 @@
 #	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #	
 
+export MIRO_ROBOT_IP=172.22.2.22
+
 # caller can skip slow parts if desired
 if [[ "$MIRO_SETUP_QUICK" == "" ]];
 then

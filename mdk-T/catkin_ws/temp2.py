@@ -2,7 +2,8 @@ import wave
 import json
 import vosk
 
-model_path = "/home/yang/mdk-T/catkin_ws/vosk-model-small-en-us-0.15"
+model_path = "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/vosk-model-small-en-us-0.15"
+
 model = vosk.Model(model_path)
 
 def recognize_speech_from_wav(file_path, target_word):
@@ -44,7 +45,7 @@ def recognize_speech_from_wav(file_path, target_word):
         return False
 
 # 使用代码识别录音
-file_path = './sound1.wav'
+file_path = '/tmp/test1.wav'
 target_word = "ball"
 
 if recognize_speech_from_wav(file_path, target_word):

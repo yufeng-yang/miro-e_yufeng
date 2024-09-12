@@ -8,7 +8,7 @@ def publish_fake_audio():
     rospy.init_node('fake_audio_publisher', anonymous=True)
 
     # 读取 sound1.wav 文件
-    file_path = '/home/yang/mdk-T/catkin_ws/sound1.wav'  # 请确保路径正确
+    file_path = '/home/miro/miro-e_yufeng/mdk-T/catkin_ws/sound1.wav'  # 请确保路径正确
     sample_rate, audio_data = wavfile.read(file_path)
 
     # 确保音频数据为 int16 类型

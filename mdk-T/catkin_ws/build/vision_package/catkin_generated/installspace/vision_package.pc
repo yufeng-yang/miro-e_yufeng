@@ -1,4 +1,4 @@
-prefix=/home/yang/mdk-T/catkin_ws/install
+prefix=/home/miro/miro-e_yufeng/mdk-T/catkin_ws/install
 
 Name: vision_package
 Description: Description of vision_package

@@ -37,7 +37,8 @@ while not rospy.is_shutdown():
         rospy.loginfo("Ball found, stopping rotation.")
     else:
         # 继续旋转
-        twistS.twist.angular.z = 0.5  # 保持旋转速度
+        twistS.twist.angular.z = 0.5
+        # twistS.twist.linear.x = -0.1  # 保持旋转速度
 
     # 发布消息
     cm_pub.publish(twistS)

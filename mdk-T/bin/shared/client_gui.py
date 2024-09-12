@@ -108,7 +108,8 @@ class miro_gui:
 
 		#Load GUI from glade file
 		self.builder = Gtk.Builder()
-		self.builder.add_from_file("client_gui.glade")
+		# self.builder.add_from_file("client_gui.glade")
+		self.builder.add_from_file("/home/miro/miro-e_yufeng/mdk-T/bin/shared/client_gui.glade")
 
 		# update constants in builder
 		update_range([

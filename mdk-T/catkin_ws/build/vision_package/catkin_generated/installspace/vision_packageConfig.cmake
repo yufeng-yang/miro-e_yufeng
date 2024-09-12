@@ -67,14 +67,14 @@ set(vision_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(vision_package_SOURCE_PREFIX /home/yang/mdk-T/catkin_ws/src/vision_package)
-  set(vision_package_DEVEL_PREFIX /home/yang/mdk-T/catkin_ws/devel)
+  set(vision_package_SOURCE_PREFIX /home/miro/miro-e_yufeng/mdk-T/catkin_ws/src/vision_package)
+  set(vision_package_DEVEL_PREFIX /home/miro/miro-e_yufeng/mdk-T/catkin_ws/devel)
   set(vision_package_INSTALL_PREFIX "")
   set(vision_package_PREFIX ${vision_package_DEVEL_PREFIX})
 else()
   set(vision_package_SOURCE_PREFIX "")
   set(vision_package_DEVEL_PREFIX "")
-  set(vision_package_INSTALL_PREFIX /home/yang/mdk-T/catkin_ws/install)
+  set(vision_package_INSTALL_PREFIX /home/miro/miro-e_yufeng/mdk-T/catkin_ws/install)
   set(vision_package_PREFIX ${vision_package_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/yang/mdk-T/catkin_ws/install/lib;/home/yang/mdk-T/catkin_ws/devel/lib;/home/yang/mdk-T/catkin_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/miro/miro-e_yufeng/mdk-T/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

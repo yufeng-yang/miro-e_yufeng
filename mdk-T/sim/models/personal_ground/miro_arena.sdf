@@ -40,7 +40,7 @@
         <pose>0 0 -0.005 0 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>1.250</radius>  <!-- 可以根据需要调整地面的半径 -->
+            <radius>9</radius>  <!-- 可以根据需要调整地面的半径 -->
             <length>0.010</length>
           </cylinder>
         </geometry>
@@ -55,7 +55,7 @@
         <pose>0 0 -0.005 0 0 0</pose>
         <geometry>
           <cylinder>
-            <radius>1.250</radius>  <!-- 与视觉部分保持一致 -->
+            <radius>9</radius>  <!-- 与视觉部分保持一致 -->
             <length>0.010</length>
           </cylinder>
         </geometry>

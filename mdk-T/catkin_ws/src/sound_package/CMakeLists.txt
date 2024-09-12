@@ -163,6 +163,7 @@ catkin_install_python(PROGRAMS
   scripts/simulate_sound.py
   scripts/sound_receiver.py
   scripts/sound_trigger.py
+  scripts/sound_check.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

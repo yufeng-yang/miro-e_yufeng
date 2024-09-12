@@ -210,7 +210,7 @@ class client:
 		if self.mode == "record" or self.mode == "record4":
 
 			# write output file
-			outfilename = '/tmp/client_audio.wav'
+			outfilename = '/tmp/client_audio1.wav'
 			file = wave.open(outfilename, 'wb')
 			file.setsampwidth(2)
 			file.setframerate(MIC_SAMPLE_RATE)

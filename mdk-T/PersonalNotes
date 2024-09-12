@@ -7,3 +7,10 @@
 2...
 关于还有的参数服务器通信，一些参数被静态写入到param里面了。就是由service修改的东西就存在service里面
 目前已将rosparam dump miroParams.yaml 命令，将参数导出了
+
+
+gazebo /usr/share/gazebo-11/worlds/empty.world 
+
+source ~/miro-e_yufeng/mdk-T/setup.bash
+
+source ~/miro-e_yufeng/mdk-T/catkin_ws/devel/setup.bash

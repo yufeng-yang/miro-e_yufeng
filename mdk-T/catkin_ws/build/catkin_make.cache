@@ -1,2 +1,2 @@
 first_Fun_pag:miro2_msg:motion_control_package:sound_package:vision_package
--DCATKIN_DEVEL_PREFIX=/home/yang/mdk-T/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yang/mdk-T/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/miro/miro-e_yufeng/mdk-T/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/miro/miro-e_yufeng/mdk-T/catkin_ws/install -G Unix Makefiles

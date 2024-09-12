@@ -4,7 +4,7 @@ import numpy as np
 import json
 import vosk
 
-model_path = "/home/yang/mdk-T/catkin_ws/vosk-model-small-en-us-0.15"
+model_path = "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/vosk-model-small-en-us-0.15"
 model = vosk.Model(model_path)
 
 def recognize_speech_from_data(audio_data, target_word):

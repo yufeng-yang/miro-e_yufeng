@@ -162,6 +162,7 @@ include_directories(
 catkin_install_python(PROGRAMS
   scripts/img_receiver.py
   scripts/distance.py
+  scripts/barrier_view.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 

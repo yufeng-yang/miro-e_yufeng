@@ -1,4 +1,4 @@
-prefix=/home/yang/mdk-T/catkin_ws/devel
+prefix=/home/miro/miro-e_yufeng/mdk-T/catkin_ws/devel
 
 Name: sound_package
 Description: Description of sound_package

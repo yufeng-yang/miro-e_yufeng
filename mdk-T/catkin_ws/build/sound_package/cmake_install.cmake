@@ -1,8 +1,8 @@
-# Install script for directory: /home/yang/mdk-T/catkin_ws/src/sound_package
+# Install script for directory: /home/miro/miro-e_yufeng/mdk-T/catkin_ws/src/sound_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yang/mdk-T/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,29 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_package.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_package.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sound_package/cmake" TYPE FILE FILES
-    "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_packageConfig.cmake"
-    "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_packageConfig-version.cmake"
+    "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_packageConfig.cmake"
+    "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_packageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sound_package" TYPE FILE FILES "/home/yang/mdk-T/catkin_ws/src/sound_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sound_package" TYPE FILE FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/src/sound_package/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/simulate_sound.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/simulate_sound.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_receiver.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_receiver.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/yang/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_trigger.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_trigger.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sound_package" TYPE PROGRAM FILES "/home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/sound_package/catkin_generated/installspace/sound_check.py")
 endif()
 

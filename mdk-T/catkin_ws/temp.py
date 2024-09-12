@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 
+# source ~/miro-e_yufeng/mdk-T/catkin_ws/devel/setup.bash
 # 读取 wav 文件
 file_path = './sound1.wav'
 sample_rate, data = wavfile.read(file_path)

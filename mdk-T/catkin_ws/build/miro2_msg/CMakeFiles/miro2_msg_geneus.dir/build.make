@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yang/mdk-T/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/miro/miro-e_yufeng/mdk-T/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yang/mdk-T/catkin_ws/build
+CMAKE_BINARY_DIR = /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build
 
 # Utility rule file for miro2_msg_geneus.
 
@@ -63,10 +63,10 @@ miro2_msg/CMakeFiles/miro2_msg_geneus.dir/build: miro2_msg_geneus
 .PHONY : miro2_msg/CMakeFiles/miro2_msg_geneus.dir/build
 
 miro2_msg/CMakeFiles/miro2_msg_geneus.dir/clean:
-	cd /home/yang/mdk-T/catkin_ws/build/miro2_msg && $(CMAKE_COMMAND) -P CMakeFiles/miro2_msg_geneus.dir/cmake_clean.cmake
+	cd /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/miro2_msg && $(CMAKE_COMMAND) -P CMakeFiles/miro2_msg_geneus.dir/cmake_clean.cmake
 .PHONY : miro2_msg/CMakeFiles/miro2_msg_geneus.dir/clean
 
 miro2_msg/CMakeFiles/miro2_msg_geneus.dir/depend:
-	cd /home/yang/mdk-T/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yang/mdk-T/catkin_ws/src /home/yang/mdk-T/catkin_ws/src/miro2_msg /home/yang/mdk-T/catkin_ws/build /home/yang/mdk-T/catkin_ws/build/miro2_msg /home/yang/mdk-T/catkin_ws/build/miro2_msg/CMakeFiles/miro2_msg_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/miro/miro-e_yufeng/mdk-T/catkin_ws/src /home/miro/miro-e_yufeng/mdk-T/catkin_ws/src/miro2_msg /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/miro2_msg /home/miro/miro-e_yufeng/mdk-T/catkin_ws/build/miro2_msg/CMakeFiles/miro2_msg_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : miro2_msg/CMakeFiles/miro2_msg_geneus.dir/depend
 
